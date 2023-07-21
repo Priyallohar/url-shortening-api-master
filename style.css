@@ -120,19 +120,11 @@ hr{
     color: hsl(228, 45%, 44%); 
     color: white;
 }
-.working_svg {
-    margin: -70px 0px 0px 30px;
-  }
 
-  .working_svg_div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width:100%;
-    height: 400px;
-    overflow: hidden;
+.working_svg_div{
+    display: none;
+}
 
-  }
   
 
 @media screen and (max-width:450px)  {
@@ -163,4 +155,17 @@ hr{
       font-size: 1.2rem;
       font-weight: 700;
     }
+    .working_svg {
+        margin: -70px 0px 0px 30px;
+      }
+    
+      .working_svg_div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:100%;
+        height: 400px;
+        overflow: hidden;
+    
+      }
 }
