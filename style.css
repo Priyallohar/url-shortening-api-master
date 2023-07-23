@@ -1,87 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 
-
-
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
-.main_conatiner{
-   display: flex;
-   align-items: center;
-   flex-direction: column;
-   height: 100vh;
-}
-/* body {
-    width: 100vw;
-  } */
 
-
-#btn{
-   color: grey; 
-   display: none;
-   font-size: 2.2rem;
-   
-}
-
-.navbar{
-    margin: 40px auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    font-size: 20px; 
-}
-.header{
-    flex:0.4;
-    font-size: 2.2rem;
-}
-
-.about_product{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-.account_login{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    
-}
-.login{
-padding-right: 40px;
-}
-
-.working_svg_div_desktop{
-    flex:1
-}
-
-.intial_content{
-    flex: 3;
+.main_conatiner {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
+#btn {
+    color: grey;
+    display: none;
+    font-size: 2.2rem;
 
-.navlist{
-    color:  hsl(257, 7%, 63%);
-    margin-left: 10px;
-    flex:3;
- display: flex;
- flex-direction: row;
-justify-content: space-between;
-font-size: 1rem;
-font-weight: 500;
 }
 
-.product{
+.navbar {
+    margin: 40px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    width: 80%;
+}
+
+.header {
+    flex: 0.4;
+    font-size: 2.2rem;
+}
+
+.about_product {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.account_login {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.login {
+    padding-right: 40px;
+}
+
+
+.navlist {
+    color: hsl(257, 7%, 63%);
+    margin-left: 10px;
+    flex: 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.product {
     padding: 20px;
 }
-.signin{
+
+.signin {
     background-color: hsl(180, 66%, 49%);
     border: none;
     width: 100px;
@@ -92,12 +79,6 @@ font-weight: 500;
     color: white;
 }
 
-
-
-.mobile_nav{
-    display: none;
-}
-
 /* .mobile-account_login{
     width:80%;
     display: flex;
@@ -106,44 +87,30 @@ font-weight: 500;
     align-items: center;
 } */
 
-hr{
+hr {
     width: 90%;
     height: 1px;
-   background-color: hsl(258, 11%, 41%) ;
-   border: none;
+    background-color: hsl(258, 11%, 41%);
+    border: none;
 }
-.mobile-signin{
+
+.mobile-signin {
     width: 90%;
-    height:50px;
+    height: 50px;
     border-radius: 50px;
-   border: none;
-   background-color: hsl(180, 66%, 49%);
-   font-size: 1.2rem;
-   font-weight: 700;
-   color: white;
+    border: none;
+    background-color: hsl(180, 66%, 49%);
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
 }
 
 
-.working_svg_div{
-    display: none;
-}
-.header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width:80%;
-   margin: 0px 30px;
-}
 
-h1{
- font-size: 3rem;
-}
 
-  p{
-    font-size: 1rem;
-  }
 
-@media screen and (max-width:450px)  {
+
+/* @media screen and (max-width:400px)  {
     .navlist{
         display: none;
     }
@@ -172,7 +139,7 @@ h1{
       font-weight: 700;
     }
     .working_svg {
-        margin: -70px 0px 0px 30px;
+        margin: -40px 0px 0px 30px;
       }
     
       .working_svg_div{
@@ -182,23 +149,26 @@ h1{
         width:100%;
         height: 400px;
         overflow: hidden;
-    
-      }
-}
 
-.attribution { 
+      }
+      .intial_content_div{
+        display: none;
+      }
+} */
+
+.attribution {
     position: absolute;
     bottom: 0;
-    font-size: 11px; 
-    text-align: center; 
+    font-size: 11px;
+    text-align: center;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    
-}
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
-    color: white;
+
 }
 
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    color: white;
+}
