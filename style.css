@@ -52,7 +52,6 @@
     padding-right: 40px;
 }
 
-
 .navlist {
     color: hsl(257, 7%, 63%);
     margin-left: 10px;
@@ -105,9 +104,105 @@ hr {
     color: white;
 }
 
+.initial_content_container{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
+    height: 55vh;
+}
+.initial_content_header{
+    font-size: 4rem;
+    line-height:70px;
+    margin-top: 100px;
+}
+.working_svg_div_desktop{
+    flex: 1;
+    transform: scale(0.9)translateX(190px);
+ justify-self: flex-end;
+    
+}
 
+.initial_content{
+display: flex;
+flex-direction: column;
 
+}
 
+.initial_content_paragraph{
+    margin-top: 10px;
+    word-spacing: 3px;
+    color:hsl(257, 7%, 63%) ;
+}
+
+.initial_content_button{
+    margin-top: 40px;
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    background-color: hsl(180, 66%, 49%) ;
+    color: white;
+    font-weight: 700;
+}
+.link-shortening-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:80%;
+    height: 120px;
+    background-color:hsl(255, 11%, 22%) ;
+    z-index: 30;
+    overflow: hidden;
+    border-radius: 10px;
+    transform: translateY(80px);
+    
+}
+
+.about-product {
+    width: 100%;
+    height: 90vh;
+    background-color: hsl(0, 0%, 86%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-product header{
+}
+
+.input-container{
+    z-index: 60;
+    height: 30px;
+    width: 85%;
+    transform: translateX(90px);
+}
+
+.input-container input{
+   width: 70%;
+   height: 40px;
+   border-radius: 5px;
+   border: none;
+}
+
+.input-container input::placeholder {
+   padding-left: 30px;
+   font-weight: 500;
+  }
+  
+
+.input-container button{
+    width: 160px;
+    margin-left: 20px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: hsl(180, 66%, 49%);
+    font-weight: 700;
+    color: white;
+}
 
 
 /* @media screen and (max-width:400px)  {
@@ -157,15 +252,12 @@ hr {
 } */
 
 .attribution {
-    position: absolute;
     bottom: 0;
     font-size: 11px;
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-
+    text-align:center;
+    position: relative;
+            
+        
 }
 
 .attribution a {
