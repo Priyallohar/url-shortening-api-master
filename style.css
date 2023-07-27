@@ -65,8 +65,12 @@
 
 .product {
     padding: 20px;
+    text-decoration: none;
+    color:hsl(257, 7%, 63%) ;
 }
-
+.product:hover,.login:hover{
+    color:black ;
+}
 .signin {
     background-color: hsl(180, 66%, 49%);
     border: none;
@@ -78,6 +82,9 @@
     color: white;
 }
 
+.signin:hover{
+    background-color: hsl(180, 68%, 71%);
+}
 /* .mobile-account_login{
     width:80%;
     display: flex;
@@ -145,6 +152,9 @@ flex-direction: column;
     color: white;
     font-weight: 700;
 }
+.initial_content_button:hover{
+    background-color: hsl(180, 68%, 71%);
+}
 .link-shortening-container{
     display: flex;
     flex-direction: column;
@@ -171,7 +181,7 @@ flex-direction: column;
     min-height: 100%;
 }
 .input-container input{
-   width: 70%;
+   width: 80%;
    height: 40px;
    border-radius: 5px;
    border: none;
@@ -192,6 +202,10 @@ flex-direction: column;
     background-color: hsl(180, 66%, 49%);
     font-weight: 700;
     color: white;
+}
+
+.input-container button:hover{
+    background-color: hsl(180, 68%, 71%);
 }
 
 .about-product {
@@ -262,7 +276,24 @@ flex-direction: column;
 margin-top: 20px;
 color: hsl(257, 7%, 63%);
 }
+.product-brandrecongination::after{
+    content: "";
+    position: relative;
+    width: 40px;
+    height: 4px;
+    background-color:hsl(180, 66%, 49%) ;
+    transform: translate(325px,-55px);
 
+}
+.product-record::after{
+    content: "";
+    position: relative;
+    width: 40px;
+    height: 4px;
+    background-color:hsl(180, 66%, 49%) ;
+    transform: translate(325px,-107px);
+
+}
 .cta-banner{
     /* display: flex;
     justify-content: center;
@@ -298,6 +329,10 @@ color: hsl(257, 7%, 63%);
     font-weight: 700;
 }
 
+.cta-banner button:hover{
+    background-color: hsl(180, 68%, 71%);
+}
+
 .footer-section{
     width: 100%;
     height: 250px;
@@ -328,6 +363,10 @@ align-items: center;
     font-size: 0.8rem;
 }
 
+.feature-container a:hover,.resource-contaimer a:hover,.company-container a:hover{
+    color: hsl(180, 66%, 49%);
+}
+
 .feature-container p,.resource-contaimer p,.company-container p{
   font-weight: 700;
 }
@@ -337,8 +376,16 @@ align-items: center;
 }
 .socialmedia-conatiner svg{
     margin: 0px 10px;
+    transition: fill 0.2s ease-in-out;
 }
+
+.socialmedia-conatiner svg:hover path {
+   fill: hsl(180, 68%, 71%);
+  }
+  
+  
 .footer-main-container h1{
+    display: flex;
     color: white;
     font-size: 1.7rem;
 }
