@@ -172,8 +172,8 @@ flex-direction: column;
 .input-container{
     z-index: 100;
     height: 30px;
-    width: 85%;
-    transform: translate(60px,55px);
+    width: 90%;
+    transform: translate(5px,55px);
 }
 .link-shortening-container svg {
     transform: translateY(-15px);
@@ -181,12 +181,15 @@ flex-direction: column;
     min-height: 100%;
 }
 .input-container input{
-   width: 80%;
+   width: 81%;
    height: 40px;
    border-radius: 5px;
    border: none;
-}
 
+}
+.input-container input:focus{
+    outline: none;
+}
 .input-container input::placeholder {
    padding-left: 30px;
    font-weight: 500;
@@ -202,6 +205,20 @@ flex-direction: column;
     background-color: hsl(180, 66%, 49%);
     font-weight: 700;
     color: white;
+}
+.input-container p {
+    display: none;
+    font-style: italic;
+    margin-top: 4px;
+    font-size: 0.8em;
+    color: hsl(0, 87%, 67%);
+}
+
+#empty-input{
+    border: 2px solid  hsl(0, 87%, 67%);
+}
+#empty-input::placeholder{
+    color:hsl(0, 83%, 77%) ;
 }
 
 .input-container button:hover{
