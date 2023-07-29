@@ -7,11 +7,11 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.main_conatiner {
+/* .main_conatiner {
     display: flex;
     align-items: center;
     flex-direction: column;
-}
+} */
 
 #btn {
     color: grey;
@@ -355,9 +355,9 @@ color: hsl(257, 7%, 63%);
     height: 250px;
 display: flex;
 align-items: center;
-    position: relative;
+    /* position: relative; */
     justify-content: center;
-    bottom: 0;
+    /* bottom: 0; */
     background-color: hsl(260, 8%, 14%);
 }
 
