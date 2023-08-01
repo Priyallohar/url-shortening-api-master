@@ -472,9 +472,11 @@ align-items: center;
         overflow: hidden;
 
       }
-      .intial_content_div{
-        display: none;
-      }
+      .initial_content_header{
+ margin: 0 auto;
+ font-size: 0.5 !important;
+ font-weight: 100;
+     }
       .about-product{
         display: none;
       }
