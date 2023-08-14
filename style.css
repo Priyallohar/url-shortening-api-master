@@ -545,7 +545,9 @@ hr {
     .cta-banner {
         display: none;
     }
-
+    .initial_content_button{
+        align-self: center;
+    }
     .footer-section,
     .link-shortening-container {
         display: none;
