@@ -120,7 +120,6 @@ hr {
     flex-direction: row;
     width: 80%;
     margin: 0 auto;
-    height: 55vh;
 }
 
 .initial_content_header {
@@ -548,8 +547,13 @@ hr {
     .initial_content_button{
         align-self: center;
     }
-    .footer-section,
-    .link-shortening-container {
+    .footer-section {
+        display: none;
+
+    }
+
+ 
+    .attribution{
         display: none;
     }
 }
