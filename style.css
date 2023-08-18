@@ -529,12 +529,13 @@ hr {
         text-align: center;
         line-height: normal;
     }
-    .initial_content_paragraph{
+
+    .initial_content_paragraph {
         text-align: center;
     }
 
-    .initial_content_button{
-  text-align: center;
+    .initial_content_button {
+        text-align: center;
     }
 
     .about-product {
@@ -544,16 +545,33 @@ hr {
     .cta-banner {
         display: none;
     }
-    .initial_content_button{
+
+    .initial_content_button {
         align-self: center;
     }
+
     .footer-section {
         display: none;
 
     }
+     .input-container{
+        display: flex;
+        flex-direction: column;
+        height: 90%;
+        width: 95%;
+        transform: translate(10px , 60px);
+        
+     }
+    .input-container input {
+        width: 95%
+    }
+    .input-container button{
+        margin-top: 13px;
+        margin-left: -2px;
+        width: 95%
+    }
 
- 
-    .attribution{
+    .attribution {
         display: none;
     }
 }
