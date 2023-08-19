@@ -268,6 +268,7 @@ hr {
     display: flex;
     justify-content: space-between;
     width: 80%;
+    flex-wrap: wrap;
 }
 
 /* .product-info-container hr{
@@ -538,10 +539,6 @@ hr {
         text-align: center;
     }
 
-    .about-product {
-        display: none;
-    }
-
     .cta-banner {
         display: none;
     }
@@ -554,21 +551,34 @@ hr {
         display: none;
 
     }
-     .input-container{
+
+    .input-container {
         display: flex;
         flex-direction: column;
         height: 90%;
         width: 95%;
-        transform: translate(10px , 60px);
-        
-     }
+        transform: translate(10px, 60px);
+
+    }
+
     .input-container input {
         width: 95%
     }
-    .input-container button{
+
+    .input-container button {
         margin-top: 13px;
         margin-left: -2px;
         width: 95%
+    }
+
+    .about-product {
+        height: 1200px;
+    }
+
+    .product-brandrecongination::after {
+        width: 40px;
+        height: 100px;
+        transform: translate(0px, 20px);
     }
 
     .attribution {
